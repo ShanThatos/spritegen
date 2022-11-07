@@ -1,0 +1,22 @@
+
+
+// $primary: #397a5a;
+// $secondary: #9c3c3c;
+
+$primary: #277f7e;
+$secondary: #474b93;
+$success: #397a5a;
+$info: #2c6f9f;
+$warning: #a83f6e;
+$danger: #9C3C3C;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+
+body {
+    background-color: rgb(40, 48, 55);
+    font-family: Nunito, sans-serif;
+    color: rgb(238, 238, 238);
+}

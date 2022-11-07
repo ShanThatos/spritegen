@@ -1,0 +1,33 @@
+
+.drag-drop {
+    border: 5px dashed rgb(205, 205, 205);
+    border-radius: 20px;
+}
+
+$drag-drop-child: ".drag-drop>div";
+
+#{$drag-drop-child} {
+    min-height: 200px;
+    max-height: 600px;
+    overflow-y: auto;
+    margin: 15px;
+}
+
+#{$drag-drop-child}::-webkit-scrollbar {
+    width: 15px;
+}
+
+#{$drag-drop-child}::-webkit-scrollbar-track {
+    background: #f1f1f11f;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+#{$drag-drop-child}::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+#{$drag-drop-child}::-webkit-scrollbar-thumb:hover {
+    background: rgb(99, 98, 98);
+}
