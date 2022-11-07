@@ -6,7 +6,8 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "license": "MIT",
   "devDependencies": {
@@ -14,6 +15,7 @@
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
     "eslint": "^8.26.0",
+    "gh-pages": "^4.0.0",
     "sass": "^1.50.1",
     "typescript": "^4.8.2",
     "vite": "^3.0.9",
