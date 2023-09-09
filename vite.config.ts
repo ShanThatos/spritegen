@@ -7,7 +7,6 @@ export default defineConfig({
   build: {
     target: "esnext",
   },
-  base: "/spritegen/",
   resolve: {
     alias: {
       "~bootstrap": path.resolve(__dirname, "node_modules/bootstrap"),
